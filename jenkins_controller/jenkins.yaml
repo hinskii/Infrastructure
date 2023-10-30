@@ -7,21 +7,14 @@ jenkins:
           permissions:
           - "Overall/Administer"
   securityRealm:
-      local:
-        users:
-         - id: "panda"
-           password: "panda"
+    local:
+      users:
+      - id: "panda"
+        name: "panda"
+        password: "panda"
 unclassified:
   location:
-    url: http://192.168.44.44:8880/
+    url: "http://192.168.44.44:8880/"
   locale:
     ignoreAcceptLanguage: true
-    systemLocale: "en" 
-
-
-
-
-
-
-
-
+    systemLocale: "en_US"
