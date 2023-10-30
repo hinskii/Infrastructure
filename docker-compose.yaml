@@ -9,4 +9,4 @@ services:
       - "50000:50000"
     restart: always
     volumes:
-      - ./jenkins-controller/jenkins.yaml
+      - jenkins-controller/jenkins.yaml
