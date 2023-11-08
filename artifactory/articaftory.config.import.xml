@@ -5,7 +5,7 @@
         <localRepository>
             <key>docker_registry</key>
             <type>docker</type>
-            <description>docker repository</description>
+            <description>Panda docker repository</description>
             <notes></notes>
             <includesPattern>**/*</includesPattern>
             <excludesPattern></excludesPattern>
