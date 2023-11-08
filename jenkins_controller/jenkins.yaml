@@ -12,7 +12,7 @@ jenkins:
       - id: "panda"
         name: "panda"
         password: "panda"
-    numExecutors: 0
+  numExecutors: 0
   nodes:
   - permanent:
       labelString: "agent"
